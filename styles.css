@@ -86,7 +86,9 @@
 
 .main-container .left-panel .item:nth-child(1) {
   margin: 0 30px 25px 0;
-  background-color: #7541c8;
+  background: url(./images/bg-pattern-quotation.svg), #7541c8;
+  background-repeat: no-repeat;
+  background-position: 80% 0;
 }
 
 .main-container .left-panel .item:nth-child(1) img {
@@ -217,6 +219,9 @@
 }
 
 @media (max-width: 680px) {
+  .main-container .left-panel .item:nth-child(1) {
+    background-position: 80% 0;
+  }
   .main-container .left-panel,
   .main-container .right-panel {
     width: 330px;
