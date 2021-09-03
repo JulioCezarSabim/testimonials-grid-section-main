@@ -22,6 +22,10 @@
   color: white;
 }
 
+.main-container .hidden {
+  display: none;
+}
+
 .main-container .left-panel {
   display: -webkit-box;
   display: -ms-flexbox;
